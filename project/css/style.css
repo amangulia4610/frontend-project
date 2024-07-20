@@ -288,3 +288,81 @@ h1{
     transition: 1s;
     color: black;
 }
+/* ------services page-------- */
+.service-background{
+    height: 70vh;
+    width: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/project/img/services.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.service-page h1{
+    text-align: center;
+}
+.service-page p{
+    text-align: center;
+}
+.row{
+    margin-top: 30px ;
+}
+.webdev-col{
+    flex-basis: 50%;
+}
+.webdev{
+    margin-top: 40px;
+}
+#web-dev{
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 40%;
+    padding: 10px 10%;
+}
+.web-img{
+    width: 60%;
+    /* margin-left: 20%; */
+}
+.digimar{
+    margin-top: 5%;
+    margin-right: 12%;
+}
+.digimar-col{
+    flex-basis: 40%;
+
+}
+.digimar-img{
+    width: 80%;
+}
+.digimar-col img{
+    width: 80%;
+    padding-left: 40%;
+}
+.branding{
+    margin-top: 5%;
+    margin-right: 12%;
+}
+.brand-col img{
+    width: 80%;
+    margin-left: 10%;
+}
+#branding{
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 40%;
+    padding: 10px 10%;
+}
+.content{
+    margin: 5%;
+    margin-right: 12%;
+}
+.content-col{
+    flex-basis: 40%
+}
+.content-img{
+    width: 80%;
+}
+.content-col img{
+    width: 80%;
+    padding-left :25%;
+}
