@@ -112,6 +112,11 @@ nav{
     .about-col img{
         max-width: 100%;
     }
+    /* ----team members------- */
+    .team-member.ceo{
+        flex: 1 1 60%;
+        margin: 0 10px;
+    }
 }
 
 /* ----services----- */
@@ -365,4 +370,40 @@ h1{
 .content-col img{
     width: 80%;
     padding-left :25%;
+}
+/* ------team members in about us page----- */
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ceo {
+    flex: 1 1 100%;
+    margin: 0 95px;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.team-member p {
+    color: #777;
+    font-size: 0.9em;
 }
